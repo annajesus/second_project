@@ -21,14 +21,12 @@ CREATE TABLE "HAPPINESS" (
 
 CREATE TABLE "SUICIDE_RATE" (
     "Country" VARCHAR   NOT NULL,
-    "Suicide_rate" FLOAT   NOT NULL,
-    "ISO-code" VARCHAR   NOT NULL
+    "Suicide_rate" FLOAT   NOT NULL
 );
 
 CREATE TABLE "POPULATION_GROWTH" (
     "Country" VARCHAR   NOT NULL,
-    "Population_growth" FLOAT   NOT NULL,
-    "ISO-code" VARCHAR   NOT NULL
+    "Population_growth" FLOAT   NOT NULL
 );
 
 CREATE TABLE "INDIA_GDP" (
