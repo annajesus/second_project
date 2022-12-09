@@ -30,10 +30,10 @@
     created. The transformed DataFrames were loaded into the postgreSQL table. The data was loaded into a relational database. 
 
 ## Happiness Score vs Population Growth
-    ### *The results demonstrated a moderate negative correlation between the Happiness Score vs the Population Growth.
+    *The results demonstrated a moderate negative correlation between the Happiness Score vs the Population Growth.
 <img width="409" alt="Screen Shot 2022-12-08 at 9 01 51 PM" src="https://user-images.githubusercontent.com/108558769/206607338-63f32013-4225-49ce-9b76-fa951b24d871.png">
  
 
 ## Happiness Score vs Suicide Rate
-    ### *The results showed no correlation between the Happiness Score vs Suicide Rate. 
+    *The results showed no correlation between the Happiness Score vs Suicide Rate. 
 <img width="402" alt="Screen Shot 2022-12-08 at 9 02 04 PM" src="https://user-images.githubusercontent.com/108558769/206607466-dad72870-de09-4271-b9ac-a9d338b3e5df.png">
