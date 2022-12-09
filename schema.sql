@@ -1,0 +1,45 @@
+CREATE TABLE "HAPPINESS" (
+    "year" INT   NOT NULL,
+    "Country" VARCHAR   NOT NULL,
+    "Score" FLOAT   NOT NULL,
+    "GDP_per_capita" FLOAT   NOT NULL,
+    "Social_support" FLOAT   NOT NULL,
+    "Life_expectancy" FLOAT   NOT NULL,
+    "Freedom" FLOAT   NOT NULL,
+	CONSTRAINT "pk_HAPPINESS" PRIMARY KEY (
+        "Country"
+     )
+);
+
+CREATE TABLE "SUICIDE_RATE" (
+    "Country" VARCHAR   NOT NULL,
+    "Suicide_rate" FLOAT   NOT NULL
+);
+
+CREATE TABLE "POPULATION_GROWTH" (
+    "Country" VARCHAR   NOT NULL,
+    "Population_growth" FLOAT   NOT NULL
+);
+
+CREATE TABLE "INDIA_GDP" (
+    "Country" VARCHAR NOT NULL,
+    "Year" INT   NOT NULL,
+    "GDP_Billion" FLOAT   NOT NULL,
+    "Per_Capita-rupees" FLOAT   NOT NULL,
+    "Growth" FLOAT   NOT NULL,
+	CONSTRAINT "pk_INDIA_GDP" PRIMARY KEY (
+        "Year"
+     )
+);
+
+ALTER TABLE "SUICIDE_RATE" ADD CONSTRAINT "fk_SUICIDE_RATE_Country" FOREIGN KEY("Country")
+REFERENCES "HAPPINESS" ("Country");
+
+ALTER TABLE "POPULATION_GROWTH" ADD CONSTRAINT "fk_POPULATION_GROWTH_Country" FOREIGN KEY("Country")
+REFERENCES "HAPPINESS" ("Country");
+
+ALTER TABLE "INDIA_GDP" ADD CONSTRAINT "fk_INDIA_GDP_Country" FOREIGN KEY("Country")
+REFERENCES "HAPPINESS" ("Country");
+
+ALTER TABLE "HAPPINESS" ADD CONSTRAINT "fk_HAPPINESS_Year" FOREIGN KEY("year")
+REFERENCES "INDIA_GDP" ("Year");
