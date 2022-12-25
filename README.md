@@ -11,8 +11,6 @@
     * ETL Pipeline using Python, Pandas, and SQLAlchemy
 <img width="864" alt="Screen Shot 2022-12-08 at 8 16 42 PM" src="https://user-images.githubusercontent.com/108558769/206601742-e334f328-30c8-4a99-8d69-3a0dba471549.png">
 
-![images](https://user-images.githubusercontent.com/108558769/206601742-e334f328-30c8-4a99-8d69-3a0dba471549.png)
-
 ## Extract: 
     * We used data from three CSV files from World Data and Kaggle.
     
@@ -20,6 +18,8 @@
     
     * We developed an ERD to represent and define the attributes of the dataset and its relationships. 
     <img width="617" alt="Screen Shot 2022-12-08 at 7 01 32 PM" src="https://user-images.githubusercontent.com/108558769/206594279-cdf6b5d3-d941-4a02-a45d-da2722987091.png">
+    
+![image](https://user-images.githubusercontent.com/108558769/206594279-cdf6b5d3-d941-4a02-a45d-da2722987091.png)
     
 ## Transform: 
     * We used Python and Pandas to clean and structure the data in our desired form by filtering, aggregating, joining and selection. Each CSV
