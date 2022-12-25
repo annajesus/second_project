@@ -11,6 +11,8 @@
     * ETL Pipeline using Python, Pandas, and SQLAlchemy
 <img width="864" alt="Screen Shot 2022-12-08 at 8 16 42 PM" src="https://user-images.githubusercontent.com/108558769/206601742-e334f328-30c8-4a99-8d69-3a0dba471549.png">
 
+![images](https://user-images.githubusercontent.com/108558769/206601742-e334f328-30c8-4a99-8d69-3a0dba471549.png)
+
 ## Extract: 
     * We used data from three CSV files from World Data and Kaggle.
     
