@@ -1,7 +1,7 @@
 ![images](https://user-images.githubusercontent.com/108558769/206596859-100a808a-b2b5-4f92-9ff8-1bd8ee5cb0b2.png)
 
 # Happy Coder Project
-    * The team worked together to complete the ETL process on a dataset of our choice. We choose the World Happiness
+    * The team worked together to complete the ETL process on a dataset of our choice. We chose the World Happiness
     Report to analyze the countries that ranked the highest in overall happiness. We focused on comparing the suicide 
     rate and population growth based on those highest ranking countries. We then focused on one country, India, 
     in particular to further analyze closer those factors. 
