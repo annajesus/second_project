@@ -16,9 +16,7 @@
     
     * We used Pandas to extract the data and put into Pandas DataFrame.
     
-    * We developed an ERD to represent and define the attributes of the dataset and its relationships. 
-    <img width="617" alt="Screen Shot 2022-12-08 at 7 01 32 PM" src="https://user-images.githubusercontent.com/108558769/206594279-cdf6b5d3-d941-4a02-a45d-da2722987091.png">
-    
+    * We developed an ERD to represent and define the attributes of the dataset and its relationships.
 ![image](https://user-images.githubusercontent.com/108558769/206594279-cdf6b5d3-d941-4a02-a45d-da2722987091.png)
     
 ## Transform: 
